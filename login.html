@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+</head>
+<body>
+<form name="myForm" onsubmit="return validateForm()">
+    <p><center><b>Welcome Back</b></center></p>
+    <p id="start">Login to your account by filling out the login form</p>
+    <label>Your Email<sup>*</sup><input type="email" name="uname" placeholder="Enter Your Email"></label><br>
+    <label>Password<sup>*</sup> <input type="password"  name="password" placeholder="Enter Your Password"></label><br>
+    <p><a href="forgetpassword.html" id="forget">Forget Password?</a></p>
+    <input type="submit" value="Login" id="button"><br>
+    <p id = "abc">Don't have an account? <a href="RegisterPage.html" id="signup"> Sign up</a> </p>
+    
+</form>
+</body>
+</html>
